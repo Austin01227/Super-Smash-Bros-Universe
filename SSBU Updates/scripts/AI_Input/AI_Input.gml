@@ -9,7 +9,8 @@ var _mytype = AI_TYPE.idle;
 if (argument[0])
 	{
 	//Counts for each input
-	for(var i = 0; i < (INPUT.length * 2); i++)
+	var _len = INPUT.length * 2;
+	for(var i = 0; i < _len; i++)
 		{
 		input_buffer[| i] = min(++input_buffer[| i], max_buffer_length);
 		}
