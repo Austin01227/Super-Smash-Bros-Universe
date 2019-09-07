@@ -1,0 +1,55 @@
+/// @description <Run by obj_game>
+//Nothing happens if the owner is somehow destroyed
+if (instance_exists(owner))
+	{
+	//Move with the player
+	x = xstart + (owner.x - owner_xstart);
+	y = ystart + (owner.y - owner_ystart);
+	//Collisions
+	
+	//Check for a collision with any hurtboxes
+	var _num = instance_place_list(x, y, obj_hurtbox, list, false);
+	if (_num > 0)
+		{
+		//Loop through all hit hurtboxes, an execute a script for each
+		for(var i = 0; i < _num; i++)
+			{
+			//Detectboxes may be destroyed on collision, so this is necessary
+			if (instance_exists(id))
+				{
+				Detectbox_collide(list[| i]);
+				}
+			else
+				{
+				exit;
+				}
+			}
+		}
+	//Clear the DS
+	//Detectboxes may be destroyed on collision, so this is necessary
+	if (ds_exists(list, ds_type_list))
+		{
+		ds_list_clear(list);
+		}
+	else
+		{
+		exit;
+		}
+	}
+//Timer
+//When the user is in hitlag, the time on the hitboxes doesn't count down
+if (owner.self_hitlag_frame <= 0)
+	{
+	lifetime--;
+	if (lifetime < 0)
+		{
+		instance_destroy();
+		exit;
+		}
+	}
+//Destroy if the player was hit
+if (owner.state != PLAYER_STATE.attacking)
+	{
+	instance_destroy();
+	exit;
+	}
