@@ -4,8 +4,8 @@ name = "Luigi";
 //Collision box
 mask_index = spr_collision_mask_medium;
 //Hurtbox
-hurtbox_sprite = spr_hurtbox_small;
-hurtbox_crouch_sprite = spr_hurtbox_small_crouch;
+hurtbox_sprite = spr_hurtbox_large;
+hurtbox_crouch_sprite = spr_hurtbox_large_crouch;
 hurtbox = create_hurtbox(hurtbox_sprite);
 //Color Palettes
 palette_sprite = spr_palette0;
@@ -196,16 +196,16 @@ my_attacks[?"Nspec" ] = luigi_nspec_shot_put
 my_attacks[?"Fspec" ] = luigifspec0;
 my_attacks[?"Uspec" ] = luigiuspec0;
 my_attacks[?"Dspec" ] = luigidspec0;
-my_attacks[?"Grab"	] = grab0;
-my_attacks[?"DashG"	] = dash_grab0;
-my_attacks[?"Pummel"] = pummel0;
-my_attacks[?"Zair"	] = spr_luigiairdodge0;
-my_attacks[?"FThrow"] = fthrow0;
-my_attacks[?"BThrow"] = bthrow0;
-my_attacks[?"UThrow"] = uthrow0;
-my_attacks[?"DThrow"] = dthrow0;
+my_attacks[?"Grab"	] = luigigrab0;
+my_attacks[?"DashG"	] = luigidash_grab0;
+my_attacks[?"Pummel"] = luigipummel0;
+my_attacks[?"Zair"	] = luigizair0;
+my_attacks[?"FThrow"] = luigifthrow0;
+my_attacks[?"BThrow"] = luigibthrow0;
+my_attacks[?"UThrow"] = luigiuthrow0;
+my_attacks[?"DThrow"] = luigidthrow0;
 my_attacks[?"LedgeA"] = luigiledgeattack0;
-my_attacks[?"Taunt" ] = -1;
+my_attacks[?"Taunt" ] = luigitaunt0;
 //Animations / Sprites
 sprite_scale = 2;
 my_sprites[?"Idle"		] = spr_luigiidle0;
@@ -240,10 +240,10 @@ my_sprites[?"LedgeJ"	] = spr_luigiledge_jump0;
 my_sprites[?"LedgeR"	] = spr_luigiledge_jump0;
 my_sprites[?"LedgeA"	] = spr_luigiledge_attack_getup0;
 my_sprites[?"LedgeT"	] = spr_luigiledge_hang0
-my_sprites[?"LedgeTr"	] = spr_ledge_trump0;
+my_sprites[?"LedgeTr"	] = spr_luigiledgetrump;
 my_sprites[?"WallC"		] = spr_wall_cling0;
 my_sprites[?"WallJ"		] = spr_wall_jump0;
-my_sprites[?"Grabbing"	] = spr_grabbing0;
+my_sprites[?"Grabbing"	] = spr_luigigrabbing0;
 my_sprites[?"Entrance"	] = spr_luigientrance0;
 //Custom Step Event
 custom_script = custom0;

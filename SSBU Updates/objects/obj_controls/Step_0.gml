@@ -3,6 +3,7 @@ var xx, yy;
 	if keyboard_check(ord("L"))
 	{
 		global.selected_characters = 1
+		room_goto(rm_luigi_unlock);
 	}
 	if keyboard_check(ord("M")) and global.selected_characters = 1
 	{

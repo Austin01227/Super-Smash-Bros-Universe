@@ -54,15 +54,6 @@ if (run)
 			
 			//Speed
 			set_speed(sign(facing)*8,0,false,false);
-			
-			//Hitbox - every 4 frames
-			if (attack_frame % 4 == 0 && attack_frame != 0)
-				{
-				//Reset the group, so it can hit multiple times despite being in the same hitbox group
-				reset_hitbox_group(collided,0);
-				create_magnetbox(5,0,0.7,0.3,1,4,32,-5,15,2,HITBOX_SHAPE.circle,0);
-				}
-			if (attack_frame==0)
 				{
 				//Animation
 				anim_frame=8;

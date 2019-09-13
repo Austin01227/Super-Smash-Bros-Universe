@@ -17,7 +17,6 @@ if (run)
 			anim_sprite=spr_grab0;
 			anim_speed=0;
 			anim_frame=0;
-		
 			attack_frame=8;
 			return;
 			}
@@ -43,7 +42,7 @@ if (run)
 				{
 				//Animation
 				anim_frame=2;
-				create_grab(52,0,1.2,0.1,40,0,5,HITBOX_SHAPE.rectangle);
+				create_grab(30,0,1.0,0.1,40,0,5,HITBOX_SHAPE.rectangle);
 				}
 			if (attack_frame==0)
 				{

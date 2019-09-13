@@ -204,7 +204,7 @@ my_attacks[?"BThrow"] = bthrow0;
 my_attacks[?"UThrow"] = uthrow0;
 my_attacks[?"DThrow"] = dthrow0;
 my_attacks[?"LedgeA"] = ledgeattack0;
-my_attacks[?"Taunt" ] = -1;
+my_attacks[?"Taunt" ] = uptaunt0;
 //Animations / Sprites
 sprite_scale = 2;
 my_sprites[?"Idle"		] = spr_idle0;

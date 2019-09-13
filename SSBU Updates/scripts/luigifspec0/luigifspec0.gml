@@ -19,7 +19,7 @@ if (run)
 			anim_speed=0;
 			anim_frame=0;
 			
-			landing_lag = 10;
+			landing_lag =40;
 			attack_frame=10;
 			charge=0;
 			set_speed(0,0,false,false);
@@ -94,11 +94,15 @@ if (run)
 			
 			friction_gravity(air_friction,grav,10);
 			
-			//Magnetboxes
-			if (attack_frame % 3 == 0 && attack_frame != 0)
+			if (attack_frame=1)
 				{
-				reset_hitbox_group(collided,0);
-				create_magnetbox(0,0,0.8,0.8,1,5,abs(hsp)*4,vsp*3,7,2,HITBOX_SHAPE.circle,0);
+				//Animation
+				attack_phase++;
+				anim_frame=4;
+				set_speed(3*facing,-2,false,true);
+				//Initial hit
+				var _hitbox = create_melee(30,-28,1,0.9,10,7,0.9,10,82,2,HITBOX_SHAPE.circle,1);
+				set_hitbox_property(_hitbox, HITBOX_PROPERTY.hit_sfx, snd_hit_strong2);
 				}
 			
 			if (attack_frame==0)

@@ -59,6 +59,7 @@ if (run)
 					_dir += ((stick_get_value(Lstick,DIR.horizontal)) * 20);
 					}
 				var proj=custom_projectile(obj_nspec_shot_put_projectile,30,-22,0.4,0.4,5,10,0.6,80,300,HITBOX_SHAPE.circle,lengthdir_x(_len,_dir),lengthdir_y(_len,_dir));
+				audio_play_sound(snd_mario_fireball_shoot,1,false);
 				proj.grav=0.5;
 				proj.base_hitlag=50;
 				attack_phase++;

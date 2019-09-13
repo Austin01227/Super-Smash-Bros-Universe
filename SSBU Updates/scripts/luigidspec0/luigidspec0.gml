@@ -67,7 +67,7 @@ if (run)
 			//Jump Cancel
 			if (cancel_jump_check()) return;
 			//Speed Values
-			set_speed(6*facing,16,false,false);
+			set_speed(0,max_fall_speed,false,false);
 			//Hitting the ground causes a ground pound
 			if (on_ground())
 				{

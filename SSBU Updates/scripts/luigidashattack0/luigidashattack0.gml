@@ -53,7 +53,7 @@ if (run)
 				anim_frame = 4;
 			
 			//Speed
-			set_speed(sign(facing)*8,0,false,false);
+			set_speed(sign(facing)*4,0,false,false);
 			
 			//Hitbox - every 4 frames
 			if (attack_frame % 4 == 0 && attack_frame != 0)
@@ -65,10 +65,10 @@ if (run)
 			if (attack_frame==0)
 				{
 				//Animation
-				anim_frame=8;
+				anim_frame=14;
 				
 				attack_phase++;
-				attack_frame=8;
+				attack_frame=14;
 				//Final hit
 				create_melee(0,0,0.7,0.45,6,10,0.6,8,45,2,HITBOX_SHAPE.circle,1);
 				}

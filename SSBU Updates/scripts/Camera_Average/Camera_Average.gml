@@ -48,6 +48,9 @@ else
 	cam_x_goal = room_width div 2;
 	cam_y_goal = room_height div 2;
 	}
+	
+//Camera offset
+cam_y_goal += camera_y_offset;
 
 //Calculate camera zoom
 if (camera_enable_zoom)
@@ -94,8 +97,16 @@ if (camera_enable_special_zoom)
 //Camera zooming
 if (camera_enable_zoom || camera_enable_special_zoom)
 	{
-	cam_w = lerp(cam_w, cam_w_goal, camera_zoom_speed);
-	cam_h = lerp(cam_h, cam_h_goal, camera_zoom_speed);
+	if (cam_w_goal > cam_w)
+		{
+		cam_w = lerp(cam_w, cam_w_goal, camera_zoom_speed_out);
+		cam_h = lerp(cam_h, cam_h_goal, camera_zoom_speed_out);
+		}
+	else
+		{
+		cam_w = lerp(cam_w, cam_w_goal, camera_zoom_speed_in);
+		cam_h = lerp(cam_h, cam_h_goal, camera_zoom_speed_in);
+		}
 	camera_set_view_size(cam, round(cam_w), round(cam_h));
 	}
 

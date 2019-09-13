@@ -22,7 +22,16 @@
         "0d8bdd90-d358-4e0d-8f6f-66d0317942f5",
         "d95670d0-7a02-49bd-982e-1edfd73d09a9",
         "9632316f-cbf5-4608-bba7-3a73801d6b54",
-        "0e752ab5-c063-4747-b236-cc1a84e9df32"
+        "0e752ab5-c063-4747-b236-cc1a84e9df32",
+        "778a847e-c764-4022-a115-106234f8569e",
+        "fb20f8de-c0d4-4e46-a13c-9cfe1b2b746c",
+        "569d2592-1ace-4b21-8db4-80f0c3fdfe97",
+        "b3ba152c-8821-4a17-a906-06c4defc89b5",
+        "5d9ef0c0-18e1-4d6f-b00e-0cfedf6c76ac",
+        "024c0b2a-47af-41bf-b0b2-db2749dd7d6a",
+        "7411c877-d1b2-4c97-98f8-04940ba05876",
+        "8af823d8-101d-46a9-b706-3ae6e78d6130",
+        "0083e2e0-97ea-4206-a672-c20d19e651ed"
     ],
     "filterType": "GMScript",
     "folderName": "Character1_Scripts",

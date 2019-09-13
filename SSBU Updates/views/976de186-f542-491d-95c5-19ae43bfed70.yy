@@ -32,7 +32,8 @@
         "1fb949ce-5277-41f6-bb96-12be249ed6d7",
         "ff095b1b-87ee-4963-92f1-02693a208c26",
         "9914ee64-83b1-42e4-8238-11173d0e4894",
-        "adabc16a-1e94-44b3-b4aa-150e08c988f3"
+        "adabc16a-1e94-44b3-b4aa-150e08c988f3",
+        "8333ce58-793b-413b-a2e3-0a103d3c1f82"
     ],
     "filterType": "GMScript",
     "folderName": "Character0_Scripts",

@@ -38,10 +38,10 @@ if (run)
 			
 				attack_phase++;
 				attack_frame=4;
-				var _hitbox = create_melee(0,20,0.1,0.4,8,6,1.2,15,280,3,HITBOX_SHAPE.rectangle,0);
-				set_hitbox_property(_hitbox, HITBOX_PROPERTY.hit_fx_style, HIT_FX.explosion);
+				var _hitbox = create_melee(0,20,0.1,0.4,8,6,0.8,8,0,3,HITBOX_SHAPE.rectangle,0);
+				set_hitbox_property(_hitbox, HITBOX_PROPERTY.hit_fx_style, HIT_FX.normal_weak);
 				set_hitbox_property(_hitbox, HITBOX_PROPERTY.hit_sfx, snd_hit_strong2);
-				create_melee(0,10,0.6,0.7,8,5,1,5,75,4,HITBOX_SHAPE.rectangle,0,FLIPPER.autolink);
+				create_melee(0,10,0.6,0.7,8,5,1,5,0,4,HITBOX_SHAPE.rectangle,0,FLIPPER.autolink);
 				}
 			break;
 			}

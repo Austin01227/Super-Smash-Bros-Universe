@@ -63,6 +63,7 @@ if (run)
 				attack_frame=4;
 				var _damage = calculate_smash_damage(3);
 				create_melee(30,0,1.2,0.7,_damage,3,0,8,40,3,HITBOX_SHAPE.circle,0);
+				audio_play_sound(snd_forward_smash_explosion,1,false);
 				}
 			break;
 			}

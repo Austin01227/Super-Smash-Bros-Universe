@@ -18,6 +18,7 @@ if (run)
 			parry_stun_time=60;
 			landing_lag=15;
 			set_speed(0,0,false,false);
+			audio_play_sound(snd_mario_s_up,1,false);
 			attack_frame=4;
 			return;
 			}
