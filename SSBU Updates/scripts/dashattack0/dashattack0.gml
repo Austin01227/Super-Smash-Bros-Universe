@@ -14,32 +14,33 @@ if (run)
 			{
 			//Startup
 			//Animation
-			anim_sprite=spr_dashattack0;
-			anim_speed=0;
-			anim_frame=0;
+			anim_sprite = spr_dashattack0;
+			anim_speed = 0;
+			anim_frame = 0;
 			
-			attack_frame=12;
+			attack_frame = 6;
 			return;
 			}
 		//Startup -> Active
 		case 0:
 			{
 			//Animation
-			if (attack_frame==8)
-				anim_frame=1;
-			if (attack_frame==6)
-				anim_frame=2;
-			if (attack_frame==4)
-				anim_frame=3;
-			if (attack_frame==2)
-				anim_frame=4;
+			if (attack_frame == 8)
+				anim_frame = 1;
+			if (attack_frame == 6)
+				anim_frame = 2;
+			if (attack_frame == 4)
+				anim_frame = 3;
+			if (attack_frame == 2)
+				anim_frame = 4;
 			if (attack_frame==0)
 				{
 				//Animation
-				anim_frame=5;
+				anim_frame = 5;
 			
 				attack_phase++;
-				attack_frame=24;
+				attack_frame = 3;
+				create_melee(30, 25, 1.2, 0.5, 9, 8, 0.6, 9, 45, 3, HITBOX_SHAPE.circle, 0, FLIPPER.sakurai);
 				}
 			break;
 			}
@@ -50,35 +51,34 @@ if (run)
 			if (attack_frame % 3 == 0)
 				anim_frame++;
 			if (anim_frame > 6)
-				anim_frame = 4;
-			
-			//Speed
-			set_speed(sign(facing)*8,0,false,false);
 				{
 				//Animation
-				anim_frame=8;
+				anim_frame = 4;
+				anim_frame = 8;
 				
+				set_speed(sign(facing)*8, 0, false, false);
+				}
+			if(attack_frame == 0)
+				{
 				attack_phase++;
-				attack_frame=8;
-				//Final hit
-				create_melee(0,0,0.7,0.45,6,10,0.6,8,45,2,HITBOX_SHAPE.circle,1);
+				attack_frame = 14;
+				create_melee(30, 25, 0.8, 0.4, 6, 6, 0.6, 6, 50, 2, HITBOX_SHAPE.circle, 0);
 				}
 			break;
 			}
 		//Active -> Endlag
 		case 2:
 			{
-			//Friction
-			friction_gravity(0.7);
+			set_speed(sign(facing)*5, 0, false, false);
 			
 			//Animation
-			if (attack_frame==5)
-				anim_frame=9;
+			if (attack_frame == 5)
+				anim_frame = 9;
 				
-			if (attack_frame==0)
+			if (attack_frame == 0)
 				{
 				//Animation
-				anim_frame=10;
+				anim_frame = 10;
 			
 				attack_phase++;
 				attack_frame = attack_has_hit() ? 5 : 14;
@@ -88,6 +88,9 @@ if (run)
 		//Finish
 		case 3:
 			{
+			//Friction
+			friction_gravity(0.7);
+			
 			//Animation
 			if (attack_frame<8)
 				anim_frame=11;

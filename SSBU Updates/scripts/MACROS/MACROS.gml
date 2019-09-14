@@ -2,8 +2,8 @@
 #macro version "Beta 0.0.0.1"
 #region Game Constants
 #macro debug				false
-#macro show_hitboxes		false
-#macro show_hurtboxes		false
+#macro show_hitboxes		true
+#macro show_hurtboxes		true
 #macro show_collision_boxes	false
 
 //Max Number of Players
