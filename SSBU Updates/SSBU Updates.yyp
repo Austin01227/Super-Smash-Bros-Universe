@@ -2063,6 +2063,14 @@
             }
         },
         {
+            "Key": "58f5f770-3e4a-46c0-8ff2-2e118f675af4",
+            "Value": {
+                "id": "0adc86e3-b1d5-4f22-9663-c20db620280c",
+                "resourcePath": "scripts\\kirbyfsmash\\kirbyfsmash.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "593674cc-84ff-4644-b08e-3259d0bd6e1b",
             "Value": {
                 "id": "cddae967-b3b7-4ecd-8bbf-bfe7b05637af",
@@ -2291,6 +2299,14 @@
             "Value": {
                 "id": "f343c8be-db14-4361-b229-9e00e3cba15e",
                 "resourcePath": "scripts\\fx_create\\fx_create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "62a191f9-3982-41a8-8708-b5400f4ba7d9",
+            "Value": {
+                "id": "4bbb1366-91b4-4d24-9826-baa3564de707",
+                "resourcePath": "scripts\\kirbyupsmash\\kirbyupsmash.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -6026,6 +6042,8 @@
         "d4934ec4-aa59-40e3-84a0-48b106c0132b",
         "85757cac-e255-4ddf-b8e1-e3c3e39ccbb6",
         "bf95a466-83d5-4377-a27d-42840f208ef3",
+        "58f5f770-3e4a-46c0-8ff2-2e118f675af4",
+        "62a191f9-3982-41a8-8708-b5400f4ba7d9",
         "fadcd8e0-1f4b-4821-bc30-5d258555ad5e",
         "ca63f912-ce45-4de1-a136-3570e6ae6622",
         "1ede41fe-52af-4c4c-a2d4-de8a756e2830",

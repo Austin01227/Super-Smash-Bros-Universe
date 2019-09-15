@@ -1,8 +1,8 @@
 {
-    "id": "4bf60347-e3cb-4b0c-92b5-9c80d12c86c2",
+    "id": "62a191f9-3982-41a8-8708-b5400f4ba7d9",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "luigiuspec0",
+    "name": "kirbyupsmash",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -7,7 +7,7 @@ hurtbox_sprite = spr_hurtbox_small;
 hurtbox_crouch_sprite = spr_hurtbox_small_crouch;
 hurtbox = create_hurtbox(hurtbox_sprite);
 //Color Palettes
-palette_sprite = spr_palette0;
+palette_sprite = spr_palette0; 
 portrait = spr_portrait0;
 render = spr_render0;
 stock_sprite = spr_stock0;
@@ -72,10 +72,10 @@ ledge_hang_relative_x = -18;
 ledge_hang_relative_y = 22;
 //Air Dodge Values
 switch(airdodge_type)
-	{
+{
 	//Melee / Rivals Air Dodge
 	case AIRDODGE.melee:
-		{
+	{
 		air_dodge_speed = 8;
 		air_dodge_startup = 2;
 		air_dodge_active = 10;
@@ -84,7 +84,7 @@ switch(airdodge_type)
 		waveland_time = 8;
 		waveland_friction = 0.12;
 		break;
-		}
+	}
 	//Smash 4 Air Dodge
 	/*
 	case AIRDODGE.smash4:
@@ -98,13 +98,13 @@ switch(airdodge_type)
 		}
 	//*/
 	default: break;
-	}
+}
 //Shield Values
 switch(shield_type)
-	{
+{
 	//Mele Shield
 	case SHIELD.melee:
-		{
+	{
 		shield_max_hp = 55;
 		shield_hp = shield_max_hp;
 		shield_depeletion_rate = 0.14;
@@ -118,21 +118,21 @@ switch(shield_type)
 		spot_dodge_active = 20;
 		spot_dodge_endlag = 5;
 		break;
-		}
+	}
 	//Rivals Parry
 	case SHIELD.rivals:
-		{
+	{
 		parry_startup = 2;
 		parry_active = 8;
 		parry_endlag = 20;
 		parry_trigger_time = 15;
 		parry_script = parry0;
 		break;
-		}
+	}
 	/*
 	//Ultimate Shield
 	case SHIELD.ultimate:
-		{
+	{
 		shield_hp = 90;
 		shield_recover_rate = 0.5;
 		shield_jump = 9;
@@ -142,25 +142,25 @@ switch(shield_type)
 		spot_dodge_active = 12;
 		spot_dodge_endlag = 12;
 		break;
-		}
+	}
 	//*/
 	default: break;
-	}
+}
 //Walljump Values
 switch(walljump_type)
-	{
+{
 	//Rivals of Aether
 	case WALLJUMP.rivals:
-		{
+	{
 		wall_jump_startup = 2;
 		wall_jump_time = 12;
 		wall_jump_hsp = 7;
 		wall_jump_vsp = -8;
 		max_wall_jumps = 1;
 		can_wall_cling = true;
-		}
-	default: break;
 	}
+	default: break;
+}
 //*/
 //Rolling
 roll_speed = 9;
