@@ -2,7 +2,7 @@
     "id": "1e7c2cf1-fbb4-47ee-ae2b-196360e3f47a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_luiginspec_shot_put_projectile",
+    "name": "obj_luigi_fireball",
     "eventList": [
         {
             "id": "d93d2e7a-0c79-4b4a-8223-8a0d6320bb6f",

@@ -746,7 +746,7 @@
             "Key": "1e7c2cf1-fbb4-47ee-ae2b-196360e3f47a",
             "Value": {
                 "id": "05e0d51e-713e-465b-8227-20127cc2ecff",
-                "resourcePath": "objects\\obj_luiginspec_shot_put_projectile\\obj_luiginspec_shot_put_projectile.yy",
+                "resourcePath": "objects\\obj_luigi_fireball\\obj_luigi_fireball.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1671,6 +1671,14 @@
             }
         },
         {
+            "Key": "49170b3a-9a38-4882-bd8c-a9d1f2d133c1",
+            "Value": {
+                "id": "ba312f87-cdc1-42c8-8511-ba7c0b36e508",
+                "resourcePath": "scripts\\marionspec\\marionspec.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4a17d557-c297-4ad1-9134-f24dab94df58",
             "Value": {
                 "id": "22702471-fccc-4cb8-8703-b12d9eb19ff5",
@@ -2179,6 +2187,14 @@
             "Value": {
                 "id": "3ece3231-6c53-4b8c-994c-2fe0312952a5",
                 "resourcePath": "scripts\\button_reset\\button_reset.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5b61445e-2349-4306-a30d-a590775a13cd",
+            "Value": {
+                "id": "7d7f9448-2e10-4cda-ad51-90465f80cb60",
+                "resourcePath": "scripts\\mariouair\\mariouair.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -5327,6 +5343,14 @@
             }
         },
         {
+            "Key": "e619a6ae-7463-485a-8269-e5bacc3abf25",
+            "Value": {
+                "id": "719e812f-d5f5-4740-a773-8d59c2b1e334",
+                "resourcePath": "scripts\\mariofair\\mariofair.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e68968ed-4e0e-4cb0-8bb5-2a4c76f8cb13",
             "Value": {
                 "id": "836940a4-37ec-43c9-99e2-b394b456ddaa",
@@ -5380,6 +5404,14 @@
                 "id": "15bbc625-4fb1-4eda-8449-ccea7fdfdd68",
                 "resourcePath": "sprites\\spr_jump0\\spr_jump0.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e8a12cf1-98df-4fe2-842e-51d9e63f516b",
+            "Value": {
+                "id": "478cb414-1f50-4eff-8c5a-1de0280be9e4",
+                "resourcePath": "objects\\obj_mario_fireball\\obj_mario_fireball.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -5522,7 +5554,7 @@
             "Key": "eca6da56-0883-43f8-af7b-58d2a0c388f8",
             "Value": {
                 "id": "80952826-cbf2-4b46-bb63-9622cfd431be",
-                "resourcePath": "scripts\\luigi_nspec_shot_put\\luigi_nspec_shot_put.yy",
+                "resourcePath": "scripts\\luiginspec\\luiginspec.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -5674,7 +5706,7 @@
             "Key": "f465e3e5-cae6-4884-a1a5-56f5e7de4089",
             "Value": {
                 "id": "a6d09cf7-02e1-4ac9-8dd6-2d9b68de7b10",
-                "resourcePath": "scripts\\jab0\\jab0.yy",
+                "resourcePath": "scripts\\mariojab\\mariojab.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -5945,10 +5977,13 @@
         "bf24d3e8-7d44-42b0-8701-7f615f45320e",
         "c06ee483-ffb6-4500-ad43-f2fbe248272f",
         "fe92399a-9df1-4d36-ac0d-3ee4f12eea31",
+        "e619a6ae-7463-485a-8269-e5bacc3abf25",
         "5ea9cfea-7584-4b93-b7e3-a968191aa303",
         "9d6b3a0b-a518-4414-bba6-698f81f76836",
+        "5b61445e-2349-4306-a30d-a590775a13cd",
         "febc7450-1824-496b-874a-f51ef2529d0b",
         "01d84466-975d-479f-a251-23ff5e15e7f1",
+        "49170b3a-9a38-4882-bd8c-a9d1f2d133c1",
         "14ccf37c-2015-4b65-ac11-1819a13273bf",
         "6588586a-b4ef-492a-b0cf-18f7b764fa92",
         "065464b0-6eba-40f5-b6d6-44456ac16068",

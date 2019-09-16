@@ -36,7 +36,15 @@ if (run)
 				set_speed(0, -22, false, false);
 				attack_phase++;
 				attack_frame = 8;
-				var _hitbox = create_melee(15, 30, 0.6, 0.5, 25, 10, 1.2, 15, 90, 1, HITBOX_SHAPE.circle, 0);
+				if(on_ground())
+				{
+					var _hitbox = create_melee(15, 30, 0.6, 0.5, 25, 10, 1.2, 15, 90, 1, HITBOX_SHAPE.circle, 0);
+				}
+				else
+				{
+					var _hitbox = create_melee(15, 0, 0.6, 0.5, 25, 10, 1.2, 15, 90, 1, HITBOX_SHAPE.circle, 0);
+				}
+				
 				set_hitbox_property(_hitbox, HITBOX_PROPERTY.hit_fx_style, HIT_FX.normal_strong);
 				//set_invulnerable(INV.superarmor, 8);
 			}

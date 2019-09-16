@@ -14,11 +14,11 @@ if (run)
 		case PHASE.start:
 		{
 			//Animation
-			anim_sprite=spr_utilt0;
-			anim_speed=0;
-			anim_frame=0;
+			anim_sprite = spr_utilt0;
+			anim_speed = 0;
+			anim_frame = 0;
 		
-			attack_frame=6;
+			attack_frame = 6;
 			return;
 		}
 		//Sweetspot

@@ -1,8 +1,8 @@
 {
-    "id": "f465e3e5-cae6-4884-a1a5-56f5e7de4089",
+    "id": "49170b3a-9a38-4882-bd8c-a9d1f2d133c1",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "jab0",
+    "name": "marionspec",
     "IsCompatibility": false,
     "IsDnD": false
 }
