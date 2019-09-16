@@ -176,7 +176,7 @@ techroll_active = 12;
 techroll_endlag = 16;
 //Helpless
 helpless_accel = 0.4;
-helpless_max_speed = 3;
+helpless_max_speed = 2.5;
 //Attacks
 my_attacks[?"Jab"	] = jab0;
 my_attacks[?"DashA" ] = dashattack0;
