@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "1d5f3384-0203-4b10-a76c-6a65c1197143",
+            "Value": {
+                "id": "4836d2b4-8c63-4e5c-bef8-6435db367b84",
+                "resourcePath": "scripts\\mariodspec\\mariodspec.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1da79cd3-4664-4d0f-aa2d-247df3bf1485",
             "Value": {
                 "id": "0c883ed7-71db-467b-971f-6c1694a8b6a7",
@@ -1754,7 +1762,7 @@
             "Key": "4c769a3f-fcf1-4c3d-a21e-665ecb1f8188",
             "Value": {
                 "id": "1e847931-7616-4e99-a097-67fc54e8d7d8",
-                "resourcePath": "sprites\\spr_nair0\\spr_nair0.yy",
+                "resourcePath": "sprites\\spr_mariodspec\\spr_mariodspec.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1867,6 +1875,14 @@
             "Value": {
                 "id": "7572d008-4823-4650-83e5-bbdc5f4883ba",
                 "resourcePath": "sprites\\spr_obj_controls\\spr_obj_controls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "51fe9f51-5e41-4057-b423-acc445bfdae4",
+            "Value": {
+                "id": "b0e7eab8-854e-47ce-bcff-460b56b0119c",
+                "resourcePath": "sprites\\spr_hurtbox_mario\\spr_hurtbox_mario.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5031,6 +5047,14 @@
             }
         },
         {
+            "Key": "d7832b51-ccf6-479c-a7b1-5762cb9b5929",
+            "Value": {
+                "id": "7d69d357-8f86-4760-a390-c34e7679a1be",
+                "resourcePath": "sprites\\spr_nair0\\spr_nair0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d7856b45-1291-4fd6-9861-3ce22098f779",
             "Value": {
                 "id": "0dc99a79-63c3-4418-bbde-71ed8abcc589",
@@ -5987,6 +6011,7 @@
         "14ccf37c-2015-4b65-ac11-1819a13273bf",
         "6588586a-b4ef-492a-b0cf-18f7b764fa92",
         "065464b0-6eba-40f5-b6d6-44456ac16068",
+        "1d5f3384-0203-4b10-a76c-6a65c1197143",
         "1f7f5f84-5eab-4cca-8db2-70c47c001472",
         "81da8df2-08cb-4fc9-a33a-18ceb3de6aca",
         "568975ac-51a2-48cd-8c96-d800ad072c86",

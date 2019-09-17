@@ -3,7 +3,7 @@ name = "Mario";
 //Collision box
 mask_index = spr_collision_mask_medium;
 //Hurtbox
-hurtbox_sprite = spr_hurtbox_small;
+hurtbox_sprite = spr_hurtbox_mario;
 hurtbox_crouch_sprite = spr_hurtbox_small_crouch;
 hurtbox = create_hurtbox(hurtbox_sprite);
 //Color Palettes
@@ -194,7 +194,7 @@ my_attacks[?"Dair"	] = dair0;
 my_attacks[?"Nspec" ] = marionspec;
 my_attacks[?"Fspec" ] = fspec0;
 my_attacks[?"Uspec" ] = uspec0;
-my_attacks[?"Dspec" ] = dspec_falling_attack;
+my_attacks[?"Dspec" ] = mariodspec;
 my_attacks[?"Grab"	] = grab0;
 my_attacks[?"DashG"	] = dash_grab0;
 my_attacks[?"Pummel"] = pummel0;
