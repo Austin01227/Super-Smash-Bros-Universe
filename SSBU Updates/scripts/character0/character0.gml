@@ -10,7 +10,7 @@ hurtbox = create_hurtbox(hurtbox_sprite);
 palette_sprite = spr_palette0; 
 portrait = spr_portrait0;
 render = spr_render0;
-stock_sprite = spr_stock0;
+stock_sprite = spr_stock0; 
 //Weight
 weight_multiplier = 1;
 //Gravity
