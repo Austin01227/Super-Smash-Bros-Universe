@@ -1,5 +1,5 @@
 ///MACROS
-#macro version "Alpha 0.0.7.0"
+#macro version "Alpha 0.0.9.0"
 #region Game Constants
 #macro debug				false
 #macro show_hitboxes		true

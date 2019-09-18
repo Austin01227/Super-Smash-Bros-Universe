@@ -39,7 +39,7 @@ if (run)
 				
 				if(!on_ground())
 				{
-					set_speed(-0.5*facing, -8, true, false);
+					set_speed(-0.5*hsp, -8, true, false);
 				}
 				
 				create_melee(35, 2, 1.1, 0.6, 6, 9, 0.3, 5, 90, 3, HITBOX_SHAPE.circle, 0);
@@ -107,4 +107,4 @@ if (run)
 }
 
 //Movement
-move_grounded_();
+move_();

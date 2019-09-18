@@ -17,7 +17,9 @@
         "2b9b3648-dce2-4c16-bbbe-9fcb1bb8d88a",
         "3673bb07-3398-497d-b5a9-bfe4b38aaa86",
         "015d4de9-5b6b-4c82-8afa-4f14c5963446",
-        "7e1540d3-52a4-4409-ad82-957fa55a8dd8"
+        "7e1540d3-52a4-4409-ad82-957fa55a8dd8",
+        "fbe9ea3f-7bb6-4605-a6c2-56618f5fe5fd",
+        "5c76d7b8-e6d8-442c-90de-8a967987aa7d"
     ],
     "filterType": "GMScript",
     "folderName": "Character_Kirby_Scripts",

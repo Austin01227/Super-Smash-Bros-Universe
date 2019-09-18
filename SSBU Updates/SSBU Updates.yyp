@@ -2255,6 +2255,14 @@
             }
         },
         {
+            "Key": "5c76d7b8-e6d8-442c-90de-8a967987aa7d",
+            "Value": {
+                "id": "e74f33f4-c9e8-4393-84a8-6a557033df2d",
+                "resourcePath": "scripts\\kirbyfspec\\kirbyfspec.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5cd4d3e0-0200-499f-bdf8-f47cd00ed43c",
             "Value": {
                 "id": "3fecf9dc-e9ff-4cfa-a92f-6bc012a1fd00",
@@ -5175,6 +5183,14 @@
             }
         },
         {
+            "Key": "db0cc723-f503-4f29-b435-3495926e119e",
+            "Value": {
+                "id": "72b69749-0730-472c-b2f4-c17728d91d69",
+                "resourcePath": "scripts\\luigidspec\\luigidspec.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dbb417bc-c35d-47f5-a946-b1c06eec12ec",
             "Value": {
                 "id": "ccad77c4-911d-4845-80ca-1552d48347a1",
@@ -5935,6 +5951,14 @@
             }
         },
         {
+            "Key": "fbe9ea3f-7bb6-4605-a6c2-56618f5fe5fd",
+            "Value": {
+                "id": "1a775b29-3ba9-4ad3-a96b-6a6800f93d5b",
+                "resourcePath": "scripts\\kirbynspec\\kirbynspec.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fbe9faaf-f937-4655-b08f-0511eb442f57",
             "Value": {
                 "id": "7be76e11-1ecd-446e-9683-872de14f95be",
@@ -6091,6 +6115,7 @@
         "d193fd91-5947-4476-ae2c-92c041674304",
         "eca6da56-0883-43f8-af7b-58d2a0c388f8",
         "0d8bdd90-d358-4e0d-8f6f-66d0317942f5",
+        "db0cc723-f503-4f29-b435-3495926e119e",
         "d95670d0-7a02-49bd-982e-1edfd73d09a9",
         "9632316f-cbf5-4608-bba7-3a73801d6b54",
         "0e752ab5-c063-4747-b236-cc1a84e9df32",
@@ -6158,6 +6183,8 @@
         "3673bb07-3398-497d-b5a9-bfe4b38aaa86",
         "015d4de9-5b6b-4c82-8afa-4f14c5963446",
         "7e1540d3-52a4-4409-ad82-957fa55a8dd8",
+        "fbe9ea3f-7bb6-4605-a6c2-56618f5fe5fd",
+        "5c76d7b8-e6d8-442c-90de-8a967987aa7d",
         "fadcd8e0-1f4b-4821-bc30-5d258555ad5e",
         "ca63f912-ce45-4de1-a136-3570e6ae6622",
         "1ede41fe-52af-4c4c-a2d4-de8a756e2830",
