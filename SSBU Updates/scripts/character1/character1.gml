@@ -22,18 +22,18 @@ max_fall_speed = 9;
 fast_fall_speed = 12;
 //Jumping
 jumpsquat_time = 3;
-jump_speed = 13.5;
-shorthop_speed = 6.5;
-double_jump_speed = 11;
+jump_speed = 12.5;
+shorthop_speed = 8.5;
+double_jump_speed = 12;
 max_double_jumps = 1;
 land_time = 4;
 //Aerial Movment
-air_accel = 0.3;
+air_accel = 0.2;
 max_air_speed = 4;//5
-max_air_speed_dash = 6.5;
+max_air_speed_dash = 5.5;
 air_friction = 0.04;
 //Ground Movement
-ground_friction = 0.20;
+ground_friction = 0.35;
 crouch_friction = 1;
 slide_friction = 0.15;
 hard_landing_friction = 0.5;

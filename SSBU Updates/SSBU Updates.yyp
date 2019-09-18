@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "015d4de9-5b6b-4c82-8afa-4f14c5963446",
+            "Value": {
+                "id": "b94d1f99-685f-4594-a449-a9ab5079b314",
+                "resourcePath": "scripts\\kirbyuair\\kirbyuair.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "016d810f-1bc4-40fb-9f85-9e73b1a97e00",
             "Value": {
                 "id": "513d50ab-ed95-4326-8492-2baca98ac342",
@@ -1087,6 +1095,14 @@
             }
         },
         {
+            "Key": "2b9b3648-dce2-4c16-bbbe-9fcb1bb8d88a",
+            "Value": {
+                "id": "e8b377b3-4464-4b54-a3c6-6df5f0b6f479",
+                "resourcePath": "scripts\\kirbyfair\\kirbyfair.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2bbf0bb2-7987-46c3-bebe-dea11d790bcb",
             "Value": {
                 "id": "8f76730e-3356-46ee-9e5d-fd5901d353e0",
@@ -1327,6 +1343,14 @@
             }
         },
         {
+            "Key": "3673bb07-3398-497d-b5a9-bfe4b38aaa86",
+            "Value": {
+                "id": "a39097c4-72e8-4805-a3e5-2abac84fc8fe",
+                "resourcePath": "scripts\\kirbybair\\kirbybair.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "36bf7a5f-9dd3-4763-adff-9edda0ae4cd0",
             "Value": {
                 "id": "22b6e9e4-3974-4d81-bce3-229bed8062b6",
@@ -1539,6 +1563,14 @@
             "Value": {
                 "id": "97623255-dcdd-47f7-b2e8-17100e9e87f3",
                 "resourcePath": "scripts\\check_ledge_grab\\check_ledge_grab.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3fce7ba6-08b3-425b-958b-f4ba1029fc55",
+            "Value": {
+                "id": "8ee44130-58fa-4c4f-94ca-8317c4e982b0",
+                "resourcePath": "scripts\\kirbynair\\kirbynair.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2991,6 +3023,14 @@
             }
         },
         {
+            "Key": "7e1540d3-52a4-4409-ad82-957fa55a8dd8",
+            "Value": {
+                "id": "1455419d-59c7-4a54-81ab-92c35e9e1a96",
+                "resourcePath": "scripts\\kirbydair\\kirbydair.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7e5c3c8f-f9c1-4b96-a099-2fee9ec3a825",
             "Value": {
                 "id": "0af9203d-9e96-4d99-8160-d2bcd7b523f6",
@@ -4419,6 +4459,14 @@
             "Value": {
                 "id": "062c9282-a853-4230-bd26-fcaea9fd4c18",
                 "resourcePath": "scripts\\kirbydashattack\\kirbydashattack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bfa22059-edee-45e6-bebe-a48b5702c842",
+            "Value": {
+                "id": "a61ad567-8e9c-4eb8-aa18-be36e5430ddb",
+                "resourcePath": "scripts\\kirbydsmash\\kirbydsmash.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -6104,6 +6152,12 @@
         "bf95a466-83d5-4377-a27d-42840f208ef3",
         "58f5f770-3e4a-46c0-8ff2-2e118f675af4",
         "62a191f9-3982-41a8-8708-b5400f4ba7d9",
+        "bfa22059-edee-45e6-bebe-a48b5702c842",
+        "3fce7ba6-08b3-425b-958b-f4ba1029fc55",
+        "2b9b3648-dce2-4c16-bbbe-9fcb1bb8d88a",
+        "3673bb07-3398-497d-b5a9-bfe4b38aaa86",
+        "015d4de9-5b6b-4c82-8afa-4f14c5963446",
+        "7e1540d3-52a4-4409-ad82-957fa55a8dd8",
         "fadcd8e0-1f4b-4821-bc30-5d258555ad5e",
         "ca63f912-ce45-4de1-a136-3570e6ae6622",
         "1ede41fe-52af-4c4c-a2d4-de8a756e2830",

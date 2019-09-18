@@ -21,8 +21,8 @@ max_fall_speed = 10;
 fast_fall_speed = 14;
 //Jumping
 jumpsquat_time = 3;
-jump_speed = 13.5;
-shorthop_speed = 6.5;
+jump_speed = 11.5;
+shorthop_speed = 7.5;
 double_jump_speed = 11;
 max_double_jumps = 1;
 land_time = 4;

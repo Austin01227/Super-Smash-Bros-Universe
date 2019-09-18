@@ -177,7 +177,7 @@
 	#macro number_of_buttons 12
 
 	//Input buffer length
-	#macro buff 6
+	#macro buff 8
 	#macro max_buffer_length 60
 	#macro tech_buffer_time 20
 	#macro tech_lockout_time 40
