@@ -207,7 +207,7 @@ my_attacks[?"LedgeA"] = ledgeattack0;
 my_attacks[?"Taunt" ] = uptaunt0;
 //Animations / Sprites
 sprite_scale = 2;
-my_sprites[?"Idle"		] = spr_idle0;
+my_sprites[?"Idle"		] = spr_marioidle;
 my_sprites[?"Crouch"	] = spr_crouch0;
 my_sprites[?"Walk"		] = spr_walk0;
 my_sprites[?"Run"		] = spr_run0;

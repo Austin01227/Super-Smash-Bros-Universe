@@ -1927,6 +1927,14 @@
             }
         },
         {
+            "Key": "52cba078-8278-4b1d-a3c7-aae99a959189",
+            "Value": {
+                "id": "7c4cdde9-fd7b-492d-9fa3-6859bfe96fcc",
+                "resourcePath": "sprites\\spr_mariofair\\spr_mariofair.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5370a51d-f3ec-4d99-bf72-15c2f3a5ac53",
             "Value": {
                 "id": "236aa4e6-a61a-4e52-8db1-06a2d8c96f55",
@@ -4556,6 +4564,14 @@
                 "id": "01de10e0-0c9c-49d2-bec6-ee833bdbb9d6",
                 "resourcePath": "scripts\\hurtbox_reset\\hurtbox_reset.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c3a88cb6-d931-425b-86ff-b25f9ba7ee35",
+            "Value": {
+                "id": "dc931ec5-4b37-4893-a509-f588b52d476f",
+                "resourcePath": "sprites\\spr_marioidle\\spr_marioidle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
