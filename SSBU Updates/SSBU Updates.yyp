@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "15ec704c-d518-465b-9794-a520e073f5c7",
+            "Value": {
+                "id": "bbfa92ea-4a2c-4624-b5d8-21b0b5376c4d",
+                "resourcePath": "scripts\\kirbyuspec\\kirbyuspec.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "15f911a0-56b8-4f34-b91c-28252615531b",
             "Value": {
                 "id": "431c4967-3590-496a-a18a-117604d9fcf3",
@@ -1292,6 +1300,14 @@
                 "id": "408c13da-e8ed-474c-b15a-717608a5658d",
                 "resourcePath": "scripts\\check_waveland\\check_waveland.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3455cb42-38cf-45e4-b78d-30061ec82d56",
+            "Value": {
+                "id": "91e9911f-d204-4482-aef7-e9f70f1ce83c",
+                "resourcePath": "sprites\\spr_kirby_cutterwave\\spr_kirby_cutterwave.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2331,6 +2347,14 @@
             "Value": {
                 "id": "af134baa-0bfc-4510-be37-d16e8012904a",
                 "resourcePath": "scripts\\fair0\\fair0.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5f3da8a8-3591-418d-b194-2c9ba271cb7e",
+            "Value": {
+                "id": "99bc2ad6-ec45-41b6-bd14-410670269c4a",
+                "resourcePath": "scripts\\kirbydspec\\kirbydspec.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3476,6 +3500,14 @@
                 "id": "c7e6b762-b080-437a-96bd-03fe6358fb6b",
                 "resourcePath": "sprites\\spr_hit_fx_screen_lines\\spr_hit_fx_screen_lines.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8ece4b79-aa74-445b-81e4-fa4e14444e39",
+            "Value": {
+                "id": "c15c9e75-799c-4989-87ef-428b98d2e64a",
+                "resourcePath": "objects\\obj_kirby_cutterwave\\obj_kirby_cutterwave.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -6201,6 +6233,8 @@
         "7e1540d3-52a4-4409-ad82-957fa55a8dd8",
         "fbe9ea3f-7bb6-4605-a6c2-56618f5fe5fd",
         "5c76d7b8-e6d8-442c-90de-8a967987aa7d",
+        "15ec704c-d518-465b-9794-a520e073f5c7",
+        "5f3da8a8-3591-418d-b194-2c9ba271cb7e",
         "fadcd8e0-1f4b-4821-bc30-5d258555ad5e",
         "ca63f912-ce45-4de1-a136-3570e6ae6622",
         "1ede41fe-52af-4c4c-a2d4-de8a756e2830",
